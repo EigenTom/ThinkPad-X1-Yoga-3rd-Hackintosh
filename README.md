@@ -79,11 +79,11 @@ Besides, I have already applied USB Mapping and using NVMeFix.kext to enable ASP
 
 >## NOTICE:
 1. I prefer to completely hide OC interface, and use F12 Menu to dualboot Windows 10 and macOS Catalina. If you have difference preference than me, please adjust config.plist by yourself. 
-2. If you encountered any problem while booting, you may want to add `-v` in `config.plist`-`NVRAM`-`Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args` to figure what is going on. 
+2. If you encountered any problem while booting, you may want to add `-v` in `config.plist`-`NVRAM`-`Add`--`7C436110-AB2A-4BBB-A880-FE41995C9F82`--`boot-args` to figure out what is going on. 
 3. For Private reasons, I erased my SMBIOS Serials in the post. Please generate your SMBIOS using [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to enjoy iCloud Suite and Apple Continuity Functions. 
 4. The network card I prefer and used in this post is `DW1820A`, which is far cheaper than `DW1830`, and working flawlessly in X1 Yoga 3rd. If you are using a different network card such as `DW1560`, you may modify `config.plist` on your own. 
 5. For best performance and bettery life, you may want to do BIOS Modding to unlock the Advanced menu of the BIOS. Detailed BIOS modding instructions and Modded BIOS Configs can be found in [HERE](https://github.com/M82589933/x1y3-Hackintosh/blob/master/docs/BIOS-Settings.md). 
-6. The reason why I prefer using `BIOS Ver1.30` is that for me it is the only BIOS version that can drive touchscreen after S3 sleep. (There is a hardware designing flaw in X1 Yoga 3rd that the WACOM Touchscreen will disapper from the Device Manager in Windows 10 after recovering from S3 Sleep). You may apply BIOS Modding to any BIOS version, as it is not dependent on BIOS versions. 
+6. The reason why I prefer using `BIOS Ver1.30` is that for me it is the only BIOS version that can drive touchscreen after S3 sleep. (There is a hardware designing flaw in X1 Yoga 3rd that the WACOM Touchscreen will disapper from the Device Manager in Windows 10 after recovering from S3 Sleep, and can be solved by either using older BIOS or replace the touchscreen). You may apply BIOS Modding to any BIOS version, as it is not dependent on BIOS versions. 
 7. HIDPI （1680*945）can be enabled through [One-Key HIDPI](https://github.com/xzhih/one-key-hidpi/)
 
 
