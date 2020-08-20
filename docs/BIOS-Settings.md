@@ -47,7 +47,7 @@ At the minimum, these BIOS settings must be made to install and run macOS withou
 > ## Modding your BIOS:
 ### A modded BIOS will allow for more optimizations to be made for macOS and will overall make your hackintosh better. The default `config.plist` for this repository is meant to accommodate a modded BIOS with appropriate settings. <br>Look up for [HERE](https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/1_README-HARDWAREandBIOS.md) for detailed BIOS Modding Instructions. 
 
-### Note: For X1 Yoga 3rd Gen, The BIOS Chip is located between the WWAN Card on the right: 
+### Note: For X1 Yoga 3rd Gen, The BIOS Chip is located next to the WWAN Card on the right: 
 
 ![BIOS CHIP LOCATION](https://s1.ax1x.com/2020/08/20/dGArTI.md.jpg)
 
