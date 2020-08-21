@@ -42,7 +42,7 @@ and turn "Thunderbolt BIOS Assist Mode" in BIOS from ```DISABLE``` to ```ENABLE`
 
 | Fully functional | Non-functional | Semi-functional. Additional pulls needed and welcomed. |
 | ---------------- | -------------- | ------------------------------------------------------ |
-| Native Power Management✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (No TB3 Device for testing)⚠                                                      |
+| Native Power Management(7h+ estimated battery life)✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (No TB3 Device for testing)⚠                                                      |
 | Wi-Fi, Bluetooth, All Apple Continuity Functions including Sidecar, iCloud Suite(Generate your own SMBIOS information)✅ *Network Card Replacement (DW1820A) Needed               | Fingerprint Reader and WWAN Card❌ (Disable them in BIOS)             |                                                       |
 | USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               | Thunderbolt and USB-C Support❌            |                |
 | Limited TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                |             |WACOM A-ES Pen works fine, TouchScreen doesn't respond to touch ⚠                                                      |
