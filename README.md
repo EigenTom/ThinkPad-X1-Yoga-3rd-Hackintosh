@@ -23,7 +23,10 @@
 
 ### 2020-8-22
 
-* With the help of @Jamesxxx1997 , we successfully completed the adaptation of the patch to Non-BIOS Modded Machines, and introduced a new way to enable TB3 support. <br>However, this new method still need you to turn off Thunderbolt 3 BIOS Assist Mode, which cut the battery life at about 50%. <br>We are continuing investigating the ways to enable USB-C support without the cost of battery life. 
+* With the help of @Jamesxxx1997 , we successfully completed the adaptation of the patch to Non-BIOS Modded Machines, and introduced a new way to enable TB3 support. <br>However, this new method still need you to turn off Thunderbolt 3 BIOS Assist Mode, which cut the battery life at about 50%. <br>We are continuing investigating the ways to enable USB-C support without the cost of battery life. <br> Besides, the notification center gesture problem has successfully solved by using the `DEBUG` version of `VoodooRMI`.
+
+* Requested by @Jamesxxx1997, I'm now diving in to fix touchscreen support. 
+
 
 
 ### 2020-8-20
