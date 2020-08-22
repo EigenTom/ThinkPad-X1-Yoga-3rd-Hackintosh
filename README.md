@@ -185,7 +185,7 @@ Luyi1720839132@Gmail.com
 <br>
 
 > ## Credits and Thank You:
-
+- [@Jamesxxx1997](https://github.com/Jamesxxx1997) for friendly discussion and the testing the config for non-BIOS Modding Machines
 - [@Colton-Ko](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6) for the great features template and OpenCore Configuration Reference.<br>
 - [@tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) for Power Consumption Improvement reference and BIOS Modding Reference.<br> 
 - [@daliansky](https://github.com/daliansky) for all the hotpatches.<br>  
