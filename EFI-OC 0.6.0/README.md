@@ -1,3 +1,16 @@
+<font color="#FF0000"> WARNING: Currently the config file cannot be used as regula (INSTALLATION) START UP file. If you use my folder, you will encounter a strange problem:
+   
+```
+OCS: No Schema for Vault at 4 index!
+OC: Configuration requires vault but no vault provided! 
+```
+
+Clearly I have already implemented "Vault: Optional" in config.plist. However, it pops up everytime you try to boot directly from USB Disk or HDD instead of boot options. 
+
+I will take time to reconstruct `config.plist` using OC 0.6.0 official `sample.plist` some day, hope it can solve this problem. 
+
+</font>
+
 # Configuring OpenCore for your X1 Yoga 3rd
 
 
