@@ -25,8 +25,9 @@
 
 * With the help of @Jamesxxx1997 , we successfully completed the adaptation of the patch to Non-BIOS Modded Machines, and introduced a new way to enable TB3 support. <br>However, this new method still need you to turn off Thunderbolt 3 BIOS Assist Mode, which cut the battery life at about 50%. <br>We are continuing investigating the ways to enable USB-C support without the cost of battery life. <br> Besides, the notification center gesture problem has successfully solved by using the `DEBUG` version of `VoodooRMI`.
 
-* Requested by @Jamesxxx1997, I'm now diving in to fix touchscreen support. 
+* <s>Requested by @Jamesxxx1997, I'm now diving in to fix touchscreen support.</s> 
 
+* TouchScreen successfully driven. Now both fingertouch and pentouch can work flawlessly. 
 
 
 ### 2020-8-20
@@ -52,7 +53,7 @@ and turn "Thunderbolt BIOS Assist Mode" in BIOS from ```DISABLE``` to ```ENABLE`
 | Native Power Management✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (No TB3 Device for testing)⚠                                                      |
 | Wi-Fi, Bluetooth, All Apple Continuity Functions including Sidecar, iCloud Suite(Generate your own SMBIOS information)✅ *Network Card Replacement (DW1820A) Needed               | Fingerprint Reader and WWAN Card❌ (Disable them in BIOS)             |                                                       |
 | USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               |             |    Thunderbolt and USB-C Support   ⚠*(Can be enabled at the cost of Battery life, Turn them on at your own risk)         |
-| Limited TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                |             |WACOM A-ES Pen works fine, TouchScreen doesn't respond to touch ⚠                                                      |
+| Full TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                |             |                                                      |
 | BIOS Mod, unlocking ```Advanced``` Menu. ✅               | Unable to patch WWAN Whitelist❌             |                                                       |
 | HIDPI (1680*945) using One-key HIDPI, HDMI Output & Hotplug✅               |              | 4K UHD via HDMI Port in theory, no device to test⚠                                                      |
 
