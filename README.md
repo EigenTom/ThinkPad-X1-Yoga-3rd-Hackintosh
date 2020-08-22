@@ -29,6 +29,7 @@
 
 * TouchScreen successfully driven. Now both fingertouch and pentouch can work flawlessly. 
 
+* Adjust 'ForceTouchMinPressure' in the configuration file of 'VoodooRMI.kext' to '5' to enable ForceTouch Support
 
 ### 2020-8-20
 
