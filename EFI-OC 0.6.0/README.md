@@ -1,41 +1,31 @@
-<font color="#FF0000"> WARNING: Currently the config file cannot be used as regula (INSTALLATION) START UP file. If you use my folder, you will encounter a strange problem:
-   
-```
-OCS: No Schema for Vault at 4 index!
-OC: Configuration requires vault but no vault provided! 
-```
-
-Clearly I have already implemented "Vault: Optional" in config.plist. However, it pops up everytime you try to boot directly from USB Disk or HDD instead of boot options. 
-
-I will take time to reconstruct `config.plist` using OC 0.6.0 official `sample.plist` some day, hope it can solve this problem. 
-
-</font>
-
 # Configuring OpenCore for your X1 Yoga 3rd
 
 
 ##  Finding the correct config.plist
 
-As you can see, there are four different `config.plist` in this folder: <br>
-* For users who `CANNOT PERFORM BIOS MODDING` and `DO NOT USE DW1820A`: 
-Copy  `Config-modded bios no, dw1820a no.plist` to \EFI\OC\ folder, rename it as `config.plist`. <br>
+```
+if (you cannot perform BIOS Modding) : 
+    goto "/EFI-No BIOSMod" 
+elif：
+    goto "/EFI-Yes BIOSMod"
+else:
+    Go buy one ThinkPad X1 Yoga 3rd !
+    
+if (using DW1820A): 
+    use "config.plist with '1820A' in its filename"
+elif (using DW1560):
+    use "config.plist with '1560' in its filename"
+else: 
+    use "config.plist with 'NoCard' in its filename"
+```        
 
-* For users who `CANNOT PERFORM BIOS MODDING` and `USE DW1820A`: 
-Copy  `Config-modded bios no, dw1820a yes.plist` to \EFI\OC\ folder, rename it as `config.plist`. <br>
-
-* For users who `HAVE DONE BIOS MODDING` and `DO NOT USE DW1820A`: 
-Copy  `Config-bios modded, dw1820a no.plist` to \EFI\OC\ folder, rename it as `config.plist`. <br>
-
-* For users who `HAVE DONE BIOS MODDING` and `USE DW1820A`: 
-Copy  `Config-bios modded, dw1820a yes` to \EFI\OC\ folder, rename it as `config.plist`. <br>
+### Note: 
+1. Every 'config.plist' COME WITH `boot-args--'-v'` and `showpicker = True`. It makes it easier for you to deal with potential booting problems, and make the file capable for acting as Installation Boot Files. You may want to manually change or delete these arguments after everything is settled down. 
+2.  For privacy reasons, SMBIOS information has been wiped out, you need to generate your own SMBIOS and inject them into the file before you startup or doing clean install. 
 
 
-* For users who need to clean install macOS 10.15.x Catalina: 
-If you have successfully done BIOS Modding and adjusted the settings as recommended:
-use `Config-bios modded, dw1820a no.plist`. 
+<br>
 
-If you cannot perform BIOS Modding: 
-use  `Config-modded bios no, dw1820a no.plist`. 
 
 <br>
 
