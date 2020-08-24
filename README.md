@@ -21,9 +21,14 @@
 
 > ## Recent
 
+### 2020-8-24
+* Added Experimental USB-C "Hotplug" Support (I'll explain it in /EFI-OC 0.6.0/README.md)
+
 ### 2020-8-23
 * Corrected .plist file structure problem, now the `EFI` file can be used as Installation Boot file. 
 * Added `DW1560 Wireless Card Support`
+
+
 ### 2020-8-22
 
 * With the help of @Jamesxxx1997 , we successfully completed the adaptation of the patch to Non-BIOS Modded Machines, and introduced a new way to enable TB3 support. <br>However, this new method still need you to turn off Thunderbolt 3 BIOS Assist Mode, which cut the battery life at about 50%. <br>We are continuing investigating the ways to enable USB-C support without the cost of battery life. <br> Besides, the notification center gesture problem has successfully solved by using the `DEBUG` version of `VoodooRMI`.
