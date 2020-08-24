@@ -22,8 +22,8 @@
 > ## Recent
 
 ### 2020-8-23
-
-
+* Corrected .plist file structure problem, now the `EFI` file can be used as Installation Boot file. 
+* Added `DW1560 Wireless Card Support`
 ### 2020-8-22
 
 * With the help of @Jamesxxx1997 , we successfully completed the adaptation of the patch to Non-BIOS Modded Machines, and introduced a new way to enable TB3 support. <br>However, this new method still need you to turn off Thunderbolt 3 BIOS Assist Mode, which cut the battery life at about 50%. <br>We are continuing investigating the ways to enable USB-C support without the cost of battery life. <br> Besides, the notification center gesture problem has successfully solved by using the `DEBUG` version of `VoodooRMI`.
@@ -33,10 +33,6 @@
 * TouchScreen successfully driven. Now both fingertouch and pentouch can work flawlessly. 
 
 * Adjust ``ForceTouchMinPressure`` in the configuration file of ``VoodooRMI.kext`` to ``5`` to enable ForceTouch Support
-
-### 2020-8-23
-* Corrected .plist file structure problem, now the `EFI` file can be used as Installation Boot file. 
-* Added `DW1560 Wireless Card Support`
 
 ### 2020-8-20
 
@@ -196,7 +192,7 @@ Luyi1720839132@Gmail.com
 <br>
 
 > ## Credits and Thank You:
--[VoodooRMI Team](https://github.com/VoodooSMBus/VoodooRMI) for providing outstanding touchpad driver for ThinkPad series
+- [VoodooRMI Team](https://github.com/VoodooSMBus/VoodooRMI) for providing outstanding touchpad driver for ThinkPad series
 - [@Jamesxxx1997](https://github.com/Jamesxxx1997) for friendly discussion and the testing the config for non-BIOS Modding Machines
 - [@Colton-Ko](https://github.com/Colton-Ko/macOS-ThinkPad-X1C6) for the great features template and OpenCore Configuration Reference.<br>
 - [@tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) for Power Consumption Improvement reference and BIOS Modding Reference.<br> 
