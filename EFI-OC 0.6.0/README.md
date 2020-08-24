@@ -1,7 +1,7 @@
 # Configuring OpenCore for your X1 Yoga 3rd
 
 
-About Experimental USB-C Support: 
+## Important：About Experimental USB-C Support: <br>
 The USB-C support is implemented through injecting 'SSDT-USBC.aml'. It works as emulating  the `JHL6540 Thunderbolt 3 USB-C controller` as a `ExpressCard USB eXtensible Host Controller`, which makes it possible to completely poweroff the controller  after using the USB-C port, saving batterylife and prevent the controller from preventing the CPU goes into deeper C-State. 
 
 However, this implementation comes with a few trade-offs: <br>
