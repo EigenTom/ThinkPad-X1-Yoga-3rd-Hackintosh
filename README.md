@@ -59,9 +59,9 @@ and turn "Thunderbolt BIOS Assist Mode" in BIOS from ```DISABLE``` to ```ENABLE`
 
 | Fully functional | Non-functional | Semi-functional. Additional pulls needed and welcomed. |
 | ---------------- | -------------- | ------------------------------------------------------ |
-| Native Power Management✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (No TB3 Device for testing)⚠                                                      |
+| Native Power Management✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (Must disable TB3 BIOS assist mode, No TB3 Device for testing)⚠                                                      |
 | Wi-Fi, Bluetooth, All Apple Continuity Functions including Sidecar, iCloud Suite(Generate your own SMBIOS information)✅ *Network Card Replacement (DW1820A) Needed               | Fingerprint Reader and WWAN Card❌ (Disable them in BIOS)             |                                                       |
-| USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               |             |    Thunderbolt and USB-C Support   ⚠*(Can be enabled at the cost of Battery life, Turn them on at your own risk)         |
+| USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               |             |    Thunderbolt and full USB-C Support   ⚠*(TB3 Hotpatch Can be enabled at the cost of Battery life, Turn them on at your own risk; USB-C partial support is present)         |
 | Full TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                |             |                                                      |
 | BIOS Mod, unlocking ```Advanced``` Menu. ✅               | Unable to patch WWAN Whitelist❌             |                                                       |
 | HIDPI (1680*945) using One-key HIDPI, HDMI Output & Hotplug✅               |              | 4K UHD via HDMI Port in theory, no device to test⚠                                                      |
