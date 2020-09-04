@@ -113,7 +113,7 @@ Besides, I have already applied USB Mapping and using NVMeFix.kext to enable ASP
       However, macOS require TB3 controller to be always online to maintain USB-C hotpatch.
       There are two ways to achieve USB-C hotpatch: 
       1. Force USB-C controller power on all the time, which cause CPU-C storm, and consume a large amount of battery. 
-      2. Mask USB-C controller as an ExpressCard expansion USB-C card. The controller will be powered on when using USB-C port, and can be turned off manually to save battery life. The cost is described in the first part of the document. 
+      2. Mask USB-C controller as an ExpressCard expansion USB-C card. The controller will be powered on when using USB-C port, and can be turned off manually to save battery life. The cost is described in the first part of the document. <br>
       Therefore, it is not possible to get USB-C working 'as perfect as real macs'. 
 
 <br>
