@@ -757,8 +757,7 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -1367,8 +1366,7 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -1377,8 +1375,7 @@
 			<data></data>
 		</dict>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -1408,8 +1405,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -1530,6 +1526,41 @@
 	</dict>
 	<key>UEFI</key>
 	<dict>
+		<key>ProtocolOverrides</key>
+		<dict>
+			<key>AppleAudio</key>
+			<false/>
+			<key>AppleBootPolicy</key>
+			<false/>
+			<key>AppleDebugLog</key>
+			<false/>
+			<key>AppleEvent</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
+			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleKeyMap</key>
+			<false/>
+			<key>AppleRtcRam</key>
+			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
+			<key>DataHub</key>
+			<false/>
+			<key>DeviceProperties</key>
+			<false/>
+			<key>FirmwareVolume</key>
+			<false/>
+			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
+			<false/>
+			<key>UnicodeCollation</key>
+			<false/>
+		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
 		<key>Drivers</key>
