@@ -108,7 +108,7 @@ Besides, I have already applied USB Mapping and using NVMeFix.kext to enable ASP
 4. For best performance and bettery life, you may want to do BIOS Modding to unlock the Advanced menu of the BIOS. Detailed BIOS modding instructions and Modded BIOS Configs can be found at [HERE](https://github.com/M82589933/ThinkPad-X1-Yoga-3rd-Hackintosh/blob/master/docs/BIOS-Settings.md). 
 5. The reason why I prefer using `BIOS Ver1.30` is that for me it is the only BIOS version that can drive touchscreen after S3 sleep. (There is a hardware designing flaw in X1 Yoga 3rd that the WACOM Touchscreen will disapper from the Device Manager in Windows 10 after recovering from S3 Sleep). You may apply BIOS Modding to any BIOS version, as it is not dependent on BIOS versions. 
 6. HIDPI （1680*945）can be enabled through [One-Key HIDPI](https://github.com/xzhih/one-key-hidpi/)
-7. The explaination of implementing USB-C hotpatch to ThinkPad X1 (8th Gen Kaby Lake CPU) laptops: 
+7. The explaination of implementing USB-C hotpatch to ThinkPad X1 (8th Gen Kaby Lake CPU) laptops: <br>
       X1 Yoga Gen3's TB3 controller also act as USB-C (USB 3.1) controller. 
       However, macOS require TB3 controller to be always online to maintain USB-C hotpatch.
       There are two ways to achieve USB-C hotpatch: 
