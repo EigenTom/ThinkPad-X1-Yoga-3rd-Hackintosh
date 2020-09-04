@@ -20,6 +20,8 @@
 <br>
 
 > ## Recent
+### 2020-9-4
+* Fine tuned `config.plist` 's file structure
 
 ### 2020-8-24
 * Added Experimental USB-C "Hotplug" Support (I'll explain it in /EFI-OC 0.6.0/README.md)
@@ -70,6 +72,10 @@ and turn "Thunderbolt BIOS Assist Mode" in BIOS from ```DISABLE``` to ```ENABLE`
 <br>
 
 > ## Note: 
+(2020-9-4)<br>
+1. Change hibernation mode from 0 to 25 can drastically decrease the possibility of sleep failure. 
+2. Sometimes DW1820A seems to cause boot halt or auto restart. If possible, consider purchase DW1560.  
+
 
 (2020-8-20)<br>
 By completely removing Thunderbolt 3 support, I was able to achieve less than 0.9W CPU Package idle power consumption and 8W overall power consumption of the system (7h+ Battery Life). 
