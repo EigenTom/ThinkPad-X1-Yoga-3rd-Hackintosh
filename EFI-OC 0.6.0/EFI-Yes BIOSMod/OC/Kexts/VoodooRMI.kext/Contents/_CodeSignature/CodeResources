@@ -10,37 +10,37 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			iIWdyKjQPUfKUsUg/IDCJAMUdmc=
+			0XEr6/3S8yXQ2x6kERfa9C4QcoU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"23637a332dff15715784c3f11ef10f6e81bdb498" or cdhash H"88859dc8a8d03d47ca52c520fc80c22403147667"</string>
+			<string>cdhash H"ac351784404d40ed4a324e85ada64c75341df06e" or cdhash H"d1712bebfdd2f325d0db1ea41117daf42e107285"</string>
 		</dict>
 		<key>PlugIns/RMISMBus.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EBlm2QWnJYBSxcjVeg58LwOq4Vc=
+			JJ/kZuPkCO/E/1yYfyD6Bm+GCHU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"f6ef226e8cfc91eb9fab51e692c52925de7044f5" or cdhash H"101966d905a7258052c5c8d57a0e7c2f03aae157"</string>
+			<string>cdhash H"1db21876a470d6d422b2d5eeae9faf4cf6b9cf43" or cdhash H"249fe466e3e408efc4ff5c987f20fa066f860875"</string>
 		</dict>
 		<key>PlugIns/VoodooInput.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			3HcwbqTGz+p59my8ZtBHeL6opXQ=
+			IWkgOX6LeRknWddRTVZYrCxwYDg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5b31e066b6e3012b43eed5a28a2dcf354a8437aa" or cdhash H"dc77306ea4c6cfea79f66cbc66d04778bea8a574"</string>
+			<string>cdhash H"5823588c602d162972db779fc946e2b352b55ff6" or cdhash H"216920397e8b79192759d7514d5658ac2c706038"</string>
 		</dict>
 		<key>PlugIns/VoodooTrackpoint.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			f/plJg1IBPEPmKJkq6HO3XiSg+M=
+			AIcQ+GiFs7cNJTCINbpi9ZgMS3Y=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"fde7ffea82d00aa8585ad257fdec3cc9bcfa0f54" or cdhash H"7ffa65260d4804f10f98a264aba1cedd789283e3"</string>
+			<string>cdhash H"9f555e5211a84a46a27b3ed2b1751ce6dff4b464" or cdhash H"008710f86885b3b70d25308835ba62f5980c4b76"</string>
 		</dict>
 	</dict>
 	<key>rules</key>

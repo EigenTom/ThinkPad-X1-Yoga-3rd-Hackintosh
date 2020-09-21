@@ -51,12 +51,8 @@
 			<key>IOPropertyMatch</key>
 			<array>
 				<dict>
-					<key>name</key>
-					<string>SYNA2B31</string>
-				</dict>
-				<dict>
-					<key>name</key>
-					<string>SYNA2B33</string>
+					<key>compatible</key>
+					<string>PNP0C50</string>
 				</dict>
 			</array>
 			<key>IOProviderClass</key>
@@ -73,6 +69,8 @@
 		<string>1.0</string>
 		<key>com.alexandred.VoodooI2C</key>
 		<string>2.0</string>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.4</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
