@@ -20,6 +20,12 @@
 <br>
 
 > ## Recent
+
+### 2020-9-22
+* Enabled ASPM for all PCI devices, overall power consumption reduced about 1W, Estimated longest battery life = 9.5h. 
+* Updated new USB implement method. Please turn on "Charge on Battery Mode" in BIOS-Config-USB to make perfect USB-C hotplug and proper power supply to work as expected. Now some machine's sleep problem may be solved. 
+* Updated VoodooRMI.kext to the latest version (1.1.0 Release). 
+
 ### 2020-9-4
 * Fine tuned `config.plist` 's file structure
 
