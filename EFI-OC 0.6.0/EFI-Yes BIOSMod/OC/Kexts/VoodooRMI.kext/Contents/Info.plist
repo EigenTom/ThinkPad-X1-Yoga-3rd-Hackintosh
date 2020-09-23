@@ -53,7 +53,7 @@
 				<key>ForceTouchEmulation</key>
 				<true/>
 				<key>ForceTouchMinPressure</key>
-				<integer>90</integer>
+				<integer>15</integer>
 				<key>MinYDiffThumbDetection</key>
 				<integer>200</integer>
 				<key>TrackpointDeadzone</key>
