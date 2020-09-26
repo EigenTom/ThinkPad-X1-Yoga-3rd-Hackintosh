@@ -22,6 +22,63 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
+		<key>MacBookPro14,2-TBTU</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<key>IOClass</key>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>TBTU</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x15d48086</string>
+			<key>IOProbeScore</key>
+			<integer>5000</integer>
+			<key>IOProviderClass</key>
+			<string>AppleUSBXHCIAR</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
+				<key>port-count</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>ports</key>
+				<dict>
+					<key>UB21</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>UB21</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+					</dict>
+					<key>UB31</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>UB31</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+					</dict>
+				</dict>
+			</dict>
+			<key>model</key>
+			<string>MacBookPro14,2</string>
+		</dict>
 		<key>MacBookPro14,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -35,7 +92,7 @@
 			<key>IOProbeScore</key>
 			<integer>5000</integer>
 			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
+			<string>AppleUSBXHCISPTLP</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>kUSBSleepPortCurrentLimit</key>
@@ -55,7 +112,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS01</string>
 						<key>port</key>
@@ -66,7 +123,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
@@ -129,21 +186,10 @@
 						CgAAAA==
 						</data>
 					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS01</string>
-						<key>port</key>
-						<data>
-						DQAAAA==
-						</data>
-					</dict>
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>9</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>SS02</string>
 						<key>port</key>
@@ -160,6 +206,39 @@
 						<key>port</key>
 						<data>
 						DwAAAA==
+						</data>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>name</key>
+						<string>SS04</string>
+						<key>port</key>
+						<data>
+						DQAAAA==
+						</data>
+					</dict>
+					<key>USR1</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>USR1</string>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
+					<key>USR2</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>name</key>
+						<string>USR2</string>
+						<key>port</key>
+						<data>
+						DAAAAA==
 						</data>
 					</dict>
 				</dict>
