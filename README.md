@@ -20,6 +20,17 @@
 <br>
 
 > ## Recent
+### 2021-1-5
+Completely Rebuilt based on [Tyler Nguyen's ThinkPad X1 Carbon 6th OC Patch](https://github.com/tylernguyen/x1c6-hackintosh/blob/master) thanks to the two machine's hardware similarities:
+- Applied The latest TB3 Patch: Theoretically TB3 can be recognized right in the System Information App, and hotplug will work fine. 
+- NOTE: all USB 3.1 functionalities & TB3 hotplug is EXCLUSIVE at the moment, make your own choice!
+- Now the default patch is for non-BIOS modded machines. 
+- Applied YogaSMC and updated all other patches to the latest version. Now you can ctrl battery wear level, yogamode and FANSPEED right inside the OS!
+- Implemented smooth screen brightness adjustment.
+- Added Support for Hibernation Mode 25. As with normal macOS machines, mode 3 is default, but if you want, mode 25 is now also an option.
+- Updated OC to 0.6.3
+- Completely fixed sleeping issues in theory  
+
 
 ### 2020-9-22
 * Enabled ASPM for all PCI devices, overall power consumption reduced about 1W, Estimated longest battery life = 9.5h. 
@@ -68,17 +79,35 @@ and turn "Thunderbolt BIOS Assist Mode" in BIOS from ```DISABLE``` to ```ENABLE`
 
 | Fully functional | Non-functional | Semi-functional. Additional pulls needed and welcomed. |
 | ---------------- | -------------- | ------------------------------------------------------ |
-| Native Power Management✅ *Need BIOS modding              | Hibernation❌              | Thunderbolt 3 hotplug (Must disable TB3 BIOS assist mode, No TB3 Device for testing)⚠                                                      |
+| Native Power Management✅ *Need BIOS modding              | -             | Thunderbolt 3 hotplug (Must disable TB3 BIOS assist mode, No TB3 Device for testing)⚠                                                      |
 | Wi-Fi, Bluetooth, All Apple Continuity Functions including Sidecar, iCloud Suite(Generate your own SMBIOS information)✅ *Network Card Replacement (DW1820A) Needed               | Fingerprint Reader and WWAN Card❌ (Disable them in BIOS)             |                                                       |
-| USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               |             |    Thunderbolt and full USB-C Support   ⚠*(TB3 Hotpatch Can be enabled at the cost of Battery life, Turn them on at your own risk; USB-C partial support is present)         |
-| Full TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                |             |                                                      |
+| USB-A 3.0/2.0 Ports, WebCam and Complete Audio Functions, Sleep, Ethernet, iGPU, MicroSD Card Reader✅               | -            |    Thunderbolt and full USB-C Support   ⚠*(TB3 Hotpatch Can be enabled at the cost of Battery life, Turn them on at your own risk; USB-C partial support is present)         |
+| Full TouchScreen Support, Full TrackPoint and TrackPad Support, Up to 5 finger gestures, Ultra Smooth Experience  ✅*Using Voodoo RMI                | -            |                                                      |
 | BIOS Mod, unlocking ```Advanced``` Menu. ✅               | Unable to patch WWAN Whitelist❌             |                                                       |
-| HIDPI (1680*945) using One-key HIDPI, HDMI Output & Hotplug✅               |              | 4K UHD via HDMI Port in theory, no device to test⚠                                                      |
+| HIDPI (1680*945) using One-key HIDPI, HDMI Output & Hotplug✅               | -             | 4K UHD via HDMI Port and USB-C port: currently displays cannot recognize the output signal correctly, need further diving                                                     |
 
 
 <br>
 
 > ## Note: 
+(2021-1-5)<br>
+The latest patch dropped support for other wireless cards. If you are using a different card, you need to edit the config file by YOURSELF to make the card recognized by the OS. 
+
+For BIOS-Modded users, you simplly need to delete these two lines inside the patch: (These patches are for stealing mem for more vram). Since you have already set DVMT to 64MB in BIOS Advanced Setting tab, that patches are redundant for you. 
+
+```
+<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+			</dict>
+```
+
+<br>
+
+
 (2020-9-4)<br>
 1. Change hibernation mode from 0 to 25 can drastically decrease the possibility of sleep failure. 
 2. Sometimes DW1820A seems to cause boot halt or auto restart. If possible, consider purchase DW1560.  
@@ -121,6 +150,7 @@ Besides, I have already applied USB Mapping and using NVMeFix.kext to enable ASP
       1. Force USB-C controller power on all the time, which cause CPU-C storm, and consume a large amount of battery. 
       2. Mask USB-C controller as an ExpressCard expansion USB-C card. The controller will be powered on when using USB-C port, and can be turned off manually to save battery life. The cost is described in the first part of the document. <br>
       Therefore, it is not possible to get USB-C working 'as perfect as real macs'. 
+8. You can use the EFI patch as to do installations. I've enabled boot selection menus by default. After the install and troubleshooting, you may want to disable them.  
 
 <br>
 
